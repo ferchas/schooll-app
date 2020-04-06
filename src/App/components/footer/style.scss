@@ -1,0 +1,9 @@
+@import '../layout/variables';
+
+.footer__wp {
+  height: 60px;
+  background-color: $greay_200;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
