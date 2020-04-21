@@ -2,21 +2,12 @@
 
 .home {   
   margin: 8px;
-   
-  &--today { 
-    color: $greay_400;
-    font-size: 14px;
-  }
 
   &--title {
     color: $greay_500;
     font-size: 30px;
     font-weight: bold;
     padding-top: 14px;
+    margin: 24px 0 43px 0;
   }
-
-  &__news {
-  
-  }
-
 }

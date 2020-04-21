@@ -9,11 +9,19 @@ body {
     margin: 0;
 
     .layout__wrapp {
-        background-color: $greay_100;
+        background-color: $white_100;
         height: 100%;
         width: 100%;
         margin: 0;
         padding: 0px;
+
+        div[data-value="page"] {
+            height: 100%;
+            position: relative;
+            bottom: 70px;
+            position: relative;
+            padding: 45px 0 0;
+        }
 
         .icon__x24 {
             width: 24px;
