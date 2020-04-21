@@ -11,6 +11,9 @@ body {
     .layout__wrapp {
         background-color: $greay_100;
         height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0px;
 
         .icon__x24 {
             width: 24px;

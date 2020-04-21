@@ -1,6 +1,22 @@
-.map-wrapper {    
-  .map-img { 
-    width: 100%;
-    height: auto;
+@import '../../components/layout/variables';
+
+.home {   
+  margin: 8px;
+   
+  &--today { 
+    color: $greay_400;
+    font-size: 14px;
   }
+
+  &--title {
+    color: $greay_500;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 14px;
+  }
+
+  &__news {
+  
+  }
+
 }
